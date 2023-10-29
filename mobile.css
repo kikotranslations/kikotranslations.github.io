@@ -1,25 +1,26 @@
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
-  .mobile-hide {
-    display: none;
-  }
+.languages {
+  height: 2%;
+}
 
-  body {
-    align-items: flex-start;
-  }
+.container, .container * {
+  font-size: calc(0.95vw + 0.95vh);
+}
 
-  .container {
-    max-height: none;
-    margin: 2.5% 0 0 0;
-    /*display: flex;
-    justify-content: flex-start;
-    align-items: center;*/
-  }
+.centre-box {
+  width: 80%;
+}
 
-  .container, .container * {
-    font-size: 0.95em;
-  }
+.portrait img {
+  height: 50vw;
+  max-height: 100%;
+}
 
-  .logo {
-    width: 50%;
-  }
+.navigation a {
+  height: 3vh;
+  width: 12%;
+  font-size: calc(0.8vw + 0.8vh);
+}
+
+}

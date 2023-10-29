@@ -89,6 +89,7 @@ body {
   text-align: left;
   color: black;
   padding: 1%;
+  overflow: auto;
 }
 
 .text-box {
@@ -100,20 +101,20 @@ body {
 }
 
 p {
-  text-align: justify;
+  text-align: left;
 }
 
 .portrait {
-/*  display: flex;
-  justify-content: right;
-  height: 100%; */
+  display: inline;
+/*  justify-content: right;
+  height: 100%;*/
 }
 
 .portrait img {
   /*object-fit: cover;*/
-  height: 35vh;
+  height: 100%;
   float: right;
-  margin: 1%;
+  margin: 0 0 0 2%;
 }
 
 .navigation {
@@ -124,7 +125,7 @@ p {
 
 }
 
-a {
+.navigation a {
   display: flex;
   justify-content: center;
   align-items: center;
